@@ -1,0 +1,36 @@
+﻿@using Infragistics.Web.Mvc;
+@model IQueryable<Ignite_UI_Map_Demo.Models.WorldCity>
+
+<h1>Binding Collection</h1>
+
+<div>
+    @(Html.Infragistics().Map<Ignite_UI_Map_Demo.Models.WorldCity>(Model)
+
+                                            .ID("map")
+                                            .Width("700px")
+                                            .Height("500px")
+                                            .OverviewPlusDetailPaneVisibility(Visibility.Visible)
+                                            .OverviewPlusDetailPaneBackgroundImageUri(Url.Content("~/images/samples/maps/World.png"))
+                                            .BackgroundContent(bgr => bgr.OpenStreetMaps())
+                                            .PanModifier(ModifierKeys.Control)
+                                            .Series(series =>
+                                            {
+                                                series.GeographicSymbol("worldCities")
+                                                    .LatitudeMemberPath(item => item.Latitude)
+                                                    .LongitudeMemberPath(item => item.Longitude)
+                                                    .MarkerType(MarkerType.Automatic)
+                                                    .MarkerCollisionAvoidance(CollisionAvoidanceType.Fade)
+                                                    .MarkerBrush("#1B559D")
+                                                    .MarkerOutline("black")
+                                                    .ShowTooltip(true).TooltipTemplate("tooltipTemplate");
+                                            })
+                                            .WindowRect(0.1, 0.1, 0.7, 0.7)
+                                            .DataBind()
+                                            .Render()
+    )
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#map").find(".ui-widget-content").append("<span class='copyright-notice'><a href='http://www.openstreetmap.org/copyright'>© OpenStreetMap contributors</a></span>");
+    });
+</script>

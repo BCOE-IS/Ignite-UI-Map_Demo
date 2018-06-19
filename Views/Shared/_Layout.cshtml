@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ignite-UI-Maps</title>
+    <!-- Ignite UI Required Combined CSS Files -->
+    <link href="https://www.igniteui.com/igniteui/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link href="https://www.igniteui.com/igniteui/css/structure/infragistics.css" rel="stylesheet" />
+
+    <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!-- Ignite UI Required Combined JavaScript Files -->
+    <script src="http://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.core.js"></script>
+    <script src="http://cdn-na.infragistics.com/igniteui/2018.1/latest/js/infragistics.dv.js"></script>
+    <link href="~/CSS/StyleSheet.css" rel="stylesheet" />
+
+    <!-- Used to add markup and provide logging
+    functionality for the API Explorer and API Viewer UI -->
+    <script src="https://www.igniteui.com/js/apiviewer.js"></script>
+
+
+
+
+    <script id="tooltipTemplate" type="text/x-jquery-tmpl">
+        <table id="tooltipTable">
+            <tr><th class="tooltipHeading" colspan="2">${item.Name}, ${item.Country}</th></tr>
+            <tr>
+                <td>Latitude:</td>
+                <td>${item.Latitude}</td>
+            </tr>
+            <tr>
+                <td>Longitude:</td>
+                <td>${item.Longitude}</td>
+            </tr>
+        </table>
+    </script>
+
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year.ToString() - Ignite-UI-Maps</p>
+        </footer>
+    </div>
+
+</body>
+</html>

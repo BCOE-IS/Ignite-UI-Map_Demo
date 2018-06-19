@@ -1,0 +1,15 @@
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.deps.json
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.runtimeconfig.json
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.runtimeconfig.dev.json
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.dll
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.pdb
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Infragistics.Web.Mvc.dll
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\Infragistics.Web.Mvc.xml
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\bin\Debug\netcoreapp2.0\ja\Infragistics.Web.Mvc.resources.dll
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.csproj.CoreCompileInputs.cache
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.AssemblyInfoInputs.cache
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.AssemblyInfo.cs
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.csproj.CopyComplete
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.dll
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.pdb
+D:\Book\Infragistics\Ignite-ui-java-script-frameworks-demo\Ignite-UI-Map_Demo\obj\Debug\netcoreapp2.0\Ignite-UI-Map_Demo.csprojAssemblyReference.cache
